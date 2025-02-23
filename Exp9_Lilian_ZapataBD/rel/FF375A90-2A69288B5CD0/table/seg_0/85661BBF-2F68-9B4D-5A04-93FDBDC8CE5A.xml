@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85661BBF-2F68-9B4D-5A04-93FDBDC8CE5A" name="ASOCIACION">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>57C79043-8F83-3D2E-89A4-54C389D34297</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asociacion" id="298DA80A-DE9A-C3F1-31E3-A2A66B93F05D">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>88646802-8DE3-AC9E-94E4-5E52B8062962</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_asoc" id="C9402973-EA3C-04E5-FCDB-4245C8D6CB88">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>0A33449C-B345-01FA-011A-4955341CFEAA</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_creacion" id="9703AE5A-220F-C1EC-A901-84B26ECB87C6">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>ACC37D2A-E4B7-F882-1C44-335EEF138AA7</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_asoc" id="F4053D7B-CFF3-4680-FD45-9ADF6CDE171B">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>952F77A4-689A-BA82-A5EC-CCE425108516</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18C8D509-50EC-2157-F125-7D534DE00826" name="ASOCIACION_PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>A15BBEFE-64F5-F5CE-2057-628076BA0D7C</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298DA80A-DE9A-C3F1-31E3-A2A66B93F05D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

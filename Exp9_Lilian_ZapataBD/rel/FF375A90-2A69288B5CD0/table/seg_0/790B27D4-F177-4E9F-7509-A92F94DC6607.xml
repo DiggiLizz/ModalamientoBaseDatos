@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="790B27D4-F177-4E9F-7509-A92F94DC6607" name="ESC_FUTBOL">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>B64367F2-66C6-3C97-2B35-F24EC0D828FA</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="2052DE22-3924-B18F-3155-4E28ABD3A42E">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>C13E8AE0-BA85-D92F-EF18-6CA6E6C7ADBB</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_esc" id="B8725568-64F3-833A-75F3-969DEF3FBB86">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>3C81FA3A-88C1-3230-0220-DE3F88E91937</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cap_total" id="1CEAA760-BDB1-1253-7702-86E19A42D720">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>58C25BF5-81CF-977B-F3CF-E91CB759BF7B</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_fundacion" id="17D1CB1C-C0C8-A33D-0173-FC53A6E24BA0">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>CB3ABBAE-3565-B3AF-1F33-15A522FAC6E5</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="3FA506B1-36E0-8666-3926-ECE3CC02EAFC">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>000097F2-4585-259E-FA82-EA1920179894</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD070AAC-68E3-BE0E-6915-07C3D5B4C16A" name="ESC_FUTBOL_PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>9ABE8974-F628-5F98-690A-561914909C25</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2052DE22-3924-B18F-3155-4E28ABD3A42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

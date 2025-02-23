@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="9F23F3F5-D45C-003E-D4D2-CEC81118AF13">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:30:26 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<sourcePk>A15BBEFE-64F5-F5CE-2057-628076BA0D7C</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>califica</nameOnSource>
+<nameOnTarget>llega</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>57C79043-8F83-3D2E-89A4-54C389D34297</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC503116-28A5-D997-F76F-0226BB121252</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95F010F0-DF62-656D-3817-C4A191C4EEAB" name="CLUB">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>A34A701C-1F70-CBC6-D3B4-F5572D6CCDE3</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_club" id="224B5B24-DE15-A217-96E1-12FD492D1379">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>9558B2DF-810F-500D-AAF2-A43AC9986E3A</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_club" id="654315FD-2E24-525A-59A1-17C3B0931146">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>CFD29E27-3991-D423-35B9-6AC93C75CDFA</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patrimonio" id="F5B5AE2C-7230-56B1-79F7-7D6C36604C34">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>FF5A121E-67FC-BF3D-A616-185619F8459A</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_incorporacion" id="6BC17EED-0608-AAC8-473C-FC7CF8D64847">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>DE16C013-E6FC-70CE-9C35-9A0D6E4CE8D5</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_termino" id="289313FF-CC3A-FA43-BE65-8454C90613ED">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>12703509-550B-12D3-E9F6-D478D415CB3B</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_rut" id="114129A4-5E95-BD31-8EC4-4F92E3816FCD">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>E4295A2A-374B-C0D4-7806-3E669DA99891</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BC19F7-777E-796C-A556-E26A14FE5E7D" referredColumn="A65F3823-040C-7AEC-9793-1BA86C5F020C"/>
+</associations>
+</Column>
+<Column name="id_direccion" id="D2C3D00E-7DC3-1389-E3CC-8E275F3A673E">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>2FBE4B5F-5E2C-9467-7F1E-A8BEEE1D22E3</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC29BAF-8876-F904-5F88-0359287CC428" referredColumn="EE19F20B-E0E7-0328-642E-9F11D4C2ED96"/>
+</associations>
+</Column>
+<Column name="id_comuna" id="031967C2-6DB5-0BF0-031C-153CB50BE410">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>041A290C-1D8B-5F6E-1EE3-B57C3C3F3FE2</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC29BAF-8876-F904-5F88-0359287CC428" referredColumn="164D2DDF-3FC3-B08B-F8CD-5129AF8149CC"/>
+</associations>
+</Column>
+<Column name="id_region" id="7A1BD406-5ADF-6132-A8CC-E2059B055D30">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>A5BFCBC4-B3A5-E91E-0BB7-5FC89249FB8A</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC29BAF-8876-F904-5F88-0359287CC428" referredColumn="E80B61C8-C854-6250-B990-8C32D2E0686C"/>
+</associations>
+</Column>
+<Column name="PERSONA_ESC_FUTBOL_id_escuela" id="82AC9E34-27BA-2561-A5B1-B7AE516B1AD5">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:18:12 UTC</createdTime>
+<generatorID>53B068A1-E64F-EC12-0CC2-0D6653B3F228</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BC19F7-777E-796C-A556-E26A14FE5E7D" referredColumn="6BA7F3C3-4DF9-0E06-0906-3E56A5D7268E"/>
+</associations>
+</Column>
+<Column name="PERSONA_id_direccion" id="80DC7AD1-CA34-F8F9-BB00-21CD386EFD2C">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:41:43 UTC</createdTime>
+<generatorID>1BB107FE-CEDD-2CED-379D-AF2DC6EEDEA5</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BC19F7-777E-796C-A556-E26A14FE5E7D" referredColumn="072FD568-4E97-C205-BFA1-D413E9EB6459"/>
+</associations>
+</Column>
+<Column name="PER_id_comuna" id="21FAB7C3-AEF1-1FFE-40A8-C6D8AC3ECCCF">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:41:43 UTC</createdTime>
+<generatorID>19D7E3C8-A439-82A7-6DAC-427555F9A73F</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_id_region" id="CD54497D-20F9-BB17-69AD-7F52795EAF0A">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:41:43 UTC</createdTime>
+<generatorID>1A2FB2D3-89B8-6E3C-348F-D0FB72A84633</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_id_nacionalidad" id="33E7277A-87AF-8490-E367-2C4AF71F9C89">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:41:43 UTC</createdTime>
+<generatorID>9AC3F2D3-D4E7-B377-85D2-321B44453F65</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BC19F7-777E-796C-A556-E26A14FE5E7D" referredColumn="8FD248DE-34E5-A8A1-AC7D-2C2389FD0D0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C408558-BF66-A372-CC52-CA2ED66CADC6" name="CLUB_PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>2B5C5980-B55B-300A-78FF-9144BACD9FAD</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="224B5B24-DE15-A217-96E1-12FD492D1379"/>
+<colUsage columnID="D2C3D00E-7DC3-1389-E3CC-8E275F3A673E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02FF80A9-D254-475A-4DCE-525C2FCBB109" name="CLUB_PERSONA_FK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>3F7BD3E4-B132-5DD5-DFF1-AD11B8D80A5A</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="114129A4-5E95-BD31-8EC4-4F92E3816FCD"/>
+<colUsage columnID="82AC9E34-27BA-2561-A5B1-B7AE516B1AD5"/>
+<colUsage columnID="80DC7AD1-CA34-F8F9-BB00-21CD386EFD2C"/>
+<colUsage columnID="33E7277A-87AF-8490-E367-2C4AF71F9C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72003817-500F-66E0-D551-F22D7A7AC27D" name="CLUB_DIRECCION_FK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>52567EAB-7C2A-A0F6-FC93-67B64D251F22</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C3D00E-7DC3-1389-E3CC-8E275F3A673E"/>
+<colUsage columnID="031967C2-6DB5-0BF0-031C-153CB50BE410"/>
+<colUsage columnID="7A1BD406-5ADF-6132-A8CC-E2059B055D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

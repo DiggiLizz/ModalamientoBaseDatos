@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC503116-28A5-D997-F76F-0226BB121252" name="INSCRIPCION">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 15:58:30 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_inscripcion" id="1506477F-1AD0-8440-D89D-BAB7198B83C7">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 15:58:37 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asociacion" id="99C8208E-280D-4212-6265-5159625487B2">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:30:26 UTC</createdTime>
+<generatorID>9F23F3F5-D45C-003E-D4D2-CEC81118AF13</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>88646802-8DE3-AC9E-94E4-5E52B8062962</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club" id="E8CB9D4F-DDC5-E01E-1133-E333A331F163">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:05:37 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>9558B2DF-810F-500D-AAF2-A43AC9986E3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="FB4B06DD-5AB9-ED97-FB57-3BF60DCA9ECB">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:05:37 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>E4295A2A-374B-C0D4-7806-3E669DA99891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion" id="47020A87-4822-9596-DEEC-F8EEB0AA7257">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:05:37 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>2FBE4B5F-5E2C-9467-7F1E-A8BEEE1D22E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="0BC5B590-43F9-5D5D-6199-78D046D53185">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:05:37 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>041A290C-1D8B-5F6E-1EE3-B57C3C3F3FE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="F5EE1AA9-3757-7F9A-2AD9-209951BE2619">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:05:37 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>A5BFCBC4-B3A5-E91E-0BB7-5FC89249FB8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="B3F2EB32-7737-F757-2F74-78C82DBC057F">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:17:46 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>53B068A1-E64F-EC12-0CC2-0D6653B3F228</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion_per" id="751DB8B6-57C9-6775-56A7-F7480457152C">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:20:30 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>1BB107FE-CEDD-2CED-379D-AF2DC6EEDEA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacionalidad" id="D1F99CE0-9BE1-1D0F-D999-B90D36EAA35E">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:26:02 UTC</createdTime>
+<generatorID>B2BBD8C4-9C6D-5DD1-75BD-85DD75F2A764</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>9AC3F2D3-D4E7-B377-85D2-321B44453F65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEF8FD95-1ACE-A9F7-DF8D-A7D7BAD6C674" name="INSCRIPCION PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 15:58:51 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1506477F-1AD0-8440-D89D-BAB7198B83C7</attributeRef>
+<attributeRef>99C8208E-280D-4212-6265-5159625487B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

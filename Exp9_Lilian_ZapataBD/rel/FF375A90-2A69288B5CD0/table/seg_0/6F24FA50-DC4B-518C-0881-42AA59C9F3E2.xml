@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F24FA50-DC4B-518C-0881-42AA59C9F3E2" name="DIRECCION">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>67E673AE-6B45-1FF1-FC9D-7BABA6841F3F</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_direccion" id="EE19F20B-E0E7-0328-642E-9F11D4C2ED96">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>898D9747-DD2B-3B3E-B6FD-4AE2F20CF74C</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="1852FCC9-6AD3-F03E-C945-FD943CDF5CF4">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>F2201094-B0D9-DA39-86E9-278B62928923</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="2FECBE87-1F26-F62E-0EFF-331513A3CEF8">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>5C7FC8C4-AF5D-549A-8C8B-1293CEA8BEF1</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id_comuna" id="164D2DDF-3FC3-B08B-F8CD-5129AF8149CC">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>6CEF6A3A-9E39-A96C-FCAB-07E15F152180</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD87337-D80A-7512-7DB8-225D73494381" referredColumn="2ED52884-9B07-853A-6FB4-C31AA3FCCA09"/>
+</associations>
+</Column>
+<Column name="COMUNA_REGION_id_region" id="E80B61C8-C854-6250-B990-8C32D2E0686C">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>52FA999D-F147-45CC-943C-A4F032F97649</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD87337-D80A-7512-7DB8-225D73494381" referredColumn="DDF498AC-30DD-20E4-4BAB-FAEB4B16E321"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A556842B-A984-A7C4-F3F0-FA34D3B76560" name="DIRECCION_PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>232EE4AE-E651-2016-2C40-0596D223C162</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE19F20B-E0E7-0328-642E-9F11D4C2ED96"/>
+<colUsage columnID="164D2DDF-3FC3-B08B-F8CD-5129AF8149CC"/>
+<colUsage columnID="E80B61C8-C854-6250-B990-8C32D2E0686C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E16DA6FB-4449-014E-58F1-33138B322260" name="DIRECCION_COMUNA_FK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:10:13 UTC</createdTime>
+<generatorID>1BC489BF-AEBD-DEF6-86F3-065A2926CBB3</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164D2DDF-3FC3-B08B-F8CD-5129AF8149CC"/>
+<colUsage columnID="E80B61C8-C854-6250-B990-8C32D2E0686C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

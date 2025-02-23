@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp9_Lilian_ZapataBD" id="85A28AF1-6C96-BE3B-6FAD-E0931BC7BCB0" version="3.5">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 15:54:26 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>85A28AF1-6C96-BE3B-6FAD-E0931BC7BCB0</designId>
+</OSDM_Design>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DFA8C12-E905-58A8-475D-DA973C1EE401" name="JUGADOR">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:39:34 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C84D05F1-0DD9-A419-8A17-BE4F1E3AC8FA</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="puesto" id="536A1FA8-D91E-BA95-B26E-EF240EDBF2EF">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:39:47 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="premios_acuml" id="29CFAEE2-706E-9F7D-E0D1-8BC2C0B6C8C3">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:40:04 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="4E29C724-4725-866C-9369-3E6496666394">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:30:35 UTC</createdTime>
+<generatorID>3037F2CA-21CF-248E-DE9E-3529F47DE46D</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>F75469F0-1B01-8797-945B-3FB2DD61D7B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="8FEFE84C-6EE4-09BC-E433-A2F72311C64E">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:30:35 UTC</createdTime>
+<generatorID>3037F2CA-21CF-248E-DE9E-3529F47DE46D</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>2D01F40A-560D-2B03-8F95-4F46D44EADAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_direccion_per" id="2B925CB4-9E25-E239-B07A-86D4D7D778EB">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:30:35 UTC</createdTime>
+<generatorID>3037F2CA-21CF-248E-DE9E-3529F47DE46D</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>563A8855-3521-64E1-B44C-52EA9D3CF0D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacionalidad" id="A72B15AB-66F5-8055-97D3-F853ACB72EF2">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 17:30:35 UTC</createdTime>
+<generatorID>3037F2CA-21CF-248E-DE9E-3529F47DE46D</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<referedAttribute>765C1275-69E2-FAAF-31D4-09EA1859B002</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D342394-82AE-6109-4EDD-F62D909CD7BF" name="JUGADOR PK">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-22 16:50:44 UTC</createdTime>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<engineerTo>
+<item key="FF375A90-21DB-CF69-9413-2A69288B5CD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E29C724-4725-866C-9369-3E6496666394</attributeRef>
+<attributeRef>8FEFE84C-6EE4-09BC-E433-A2F72311C64E</attributeRef>
+<attributeRef>2B925CB4-9E25-E239-B07A-86D4D7D778EB</attributeRef>
+<attributeRef>A72B15AB-66F5-8055-97D3-F853ACB72EF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

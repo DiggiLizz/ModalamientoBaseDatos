@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AF5FB36-7E54-2A26-AD2D-68D6FDBA9DA9" containerWithKeyObject="7813B192-3AE2-4BC0-A3C9-12F8BAAEBB43" localFKIndex="BE3E0E43-80E3-9A54-FE34-99B76F0E1D02" name="PLANTA_PERSONA_FKv1">
+<createdBy>lilia</createdBy>
+<createdTime>2025-02-23 02:18:44 UTC</createdTime>
+<generatorID>1B39FEBB-0EE1-1271-7B0A-6BA9ADCA489E</generatorID>
+<ownerDesignName>Exp9_Lilian_ZapataBD</ownerDesignName>
+<referredTableLongName>PERSONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>791B5A05-6833-F60D-F362-B16928322846</referredTableID>
+<keyObject>925461AE-B14D-F09F-C4D9-C0A934F34D30</keyObject>
+<referredKeyID>925461AE-B14D-F09F-C4D9-C0A934F34D30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut,ESC_FUTBOL_id_escuela,DIRECCION_id_direccion,NACIONALIDAD_id_nacionalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
